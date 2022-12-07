@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeneratorsPack
 {
-    public class intGen
+    public class IntGen
     {
         Random random = new Random();
         public int GetRandomInt()

@@ -9,9 +9,9 @@ namespace GeneratorsPack
     public class CoinFlip
     {
         Random random = new Random();
-        public bool getRandomValue()
+        public bool GetRandomValue()
         {
-            return Convert.ToBoolean(random.Next(0, 1));
+            return Convert.ToBoolean(random.Next(0, 2));
         }
     }
 }
