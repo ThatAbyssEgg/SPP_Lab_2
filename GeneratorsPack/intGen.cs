@@ -8,5 +8,15 @@ namespace GeneratorsPack
 {
     public class intGen
     {
+        Random random = new Random();
+        public int GetRandomInt()
+        {
+            return random.Next();
+        }
+        
+        public uint GetRandomUInt()
+        {
+            return Convert.ToUInt32(random.Next());
+        }
     }
 }

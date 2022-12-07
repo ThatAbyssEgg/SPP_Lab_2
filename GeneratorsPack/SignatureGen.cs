@@ -8,5 +8,10 @@ namespace GeneratorsPack
 {
     public class SignatureGen
     {
+        Random random = new Random();
+        public char GetRandomChar()
+        {
+            return (char)random.Next(0, 255);
+        }
     }
 }
